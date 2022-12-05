@@ -1,0 +1,17 @@
+C:\Users\luanr\Desktop\Programação\05-Bootcamp__Pottencial (fazendo)\ExemploExplorar\bin\Debug\net6.0\ExemploExplorar.exe
+C:\Users\luanr\Desktop\Programação\05-Bootcamp__Pottencial (fazendo)\ExemploExplorar\bin\Debug\net6.0\ExemploExplorar.deps.json
+C:\Users\luanr\Desktop\Programação\05-Bootcamp__Pottencial (fazendo)\ExemploExplorar\bin\Debug\net6.0\ExemploExplorar.runtimeconfig.json
+C:\Users\luanr\Desktop\Programação\05-Bootcamp__Pottencial (fazendo)\ExemploExplorar\bin\Debug\net6.0\ExemploExplorar.dll
+C:\Users\luanr\Desktop\Programação\05-Bootcamp__Pottencial (fazendo)\ExemploExplorar\bin\Debug\net6.0\ExemploExplorar.pdb
+C:\Users\luanr\Desktop\Programação\05-Bootcamp__Pottencial (fazendo)\ExemploExplorar\obj\Debug\net6.0\ExemploExplorar.csproj.AssemblyReference.cache
+C:\Users\luanr\Desktop\Programação\05-Bootcamp__Pottencial (fazendo)\ExemploExplorar\obj\Debug\net6.0\ExemploExplorar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luanr\Desktop\Programação\05-Bootcamp__Pottencial (fazendo)\ExemploExplorar\obj\Debug\net6.0\ExemploExplorar.AssemblyInfoInputs.cache
+C:\Users\luanr\Desktop\Programação\05-Bootcamp__Pottencial (fazendo)\ExemploExplorar\obj\Debug\net6.0\ExemploExplorar.AssemblyInfo.cs
+C:\Users\luanr\Desktop\Programação\05-Bootcamp__Pottencial (fazendo)\ExemploExplorar\obj\Debug\net6.0\ExemploExplorar.csproj.CoreCompileInputs.cache
+C:\Users\luanr\Desktop\Programação\05-Bootcamp__Pottencial (fazendo)\ExemploExplorar\obj\Debug\net6.0\ExemploExplorar.dll
+C:\Users\luanr\Desktop\Programação\05-Bootcamp__Pottencial (fazendo)\ExemploExplorar\obj\Debug\net6.0\refint\ExemploExplorar.dll
+C:\Users\luanr\Desktop\Programação\05-Bootcamp__Pottencial (fazendo)\ExemploExplorar\obj\Debug\net6.0\ExemploExplorar.pdb
+C:\Users\luanr\Desktop\Programação\05-Bootcamp__Pottencial (fazendo)\ExemploExplorar\obj\Debug\net6.0\ExemploExplorar.genruntimeconfig.cache
+C:\Users\luanr\Desktop\Programação\05-Bootcamp__Pottencial (fazendo)\ExemploExplorar\obj\Debug\net6.0\ref\ExemploExplorar.dll
+C:\Users\luanr\Desktop\Programação\05-Bootcamp__Pottencial (fazendo)\ExemploExplorar\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\luanr\Desktop\Programação\05-Bootcamp__Pottencial (fazendo)\ExemploExplorar\obj\Debug\net6.0\ExemploExplorar.csproj.CopyComplete

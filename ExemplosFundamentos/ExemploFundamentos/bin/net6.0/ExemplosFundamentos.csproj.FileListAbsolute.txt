@@ -1,0 +1,15 @@
+C:\Users\luanr\Desktop\Programação\04-Projetos\05-Bootcamp__Pottencial\ExemplosFundamentos\bin\Debug\net6.0\ExemplosFundamentos.exe
+C:\Users\luanr\Desktop\Programação\04-Projetos\05-Bootcamp__Pottencial\ExemplosFundamentos\bin\Debug\net6.0\ExemplosFundamentos.deps.json
+C:\Users\luanr\Desktop\Programação\04-Projetos\05-Bootcamp__Pottencial\ExemplosFundamentos\bin\Debug\net6.0\ExemplosFundamentos.runtimeconfig.json
+C:\Users\luanr\Desktop\Programação\04-Projetos\05-Bootcamp__Pottencial\ExemplosFundamentos\bin\Debug\net6.0\ExemplosFundamentos.dll
+C:\Users\luanr\Desktop\Programação\04-Projetos\05-Bootcamp__Pottencial\ExemplosFundamentos\bin\Debug\net6.0\ExemplosFundamentos.pdb
+C:\Users\luanr\Desktop\Programação\04-Projetos\05-Bootcamp__Pottencial\ExemplosFundamentos\obj\Debug\net6.0\ExemplosFundamentos.csproj.AssemblyReference.cache
+C:\Users\luanr\Desktop\Programação\04-Projetos\05-Bootcamp__Pottencial\ExemplosFundamentos\obj\Debug\net6.0\ExemplosFundamentos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luanr\Desktop\Programação\04-Projetos\05-Bootcamp__Pottencial\ExemplosFundamentos\obj\Debug\net6.0\ExemplosFundamentos.AssemblyInfoInputs.cache
+C:\Users\luanr\Desktop\Programação\04-Projetos\05-Bootcamp__Pottencial\ExemplosFundamentos\obj\Debug\net6.0\ExemplosFundamentos.AssemblyInfo.cs
+C:\Users\luanr\Desktop\Programação\04-Projetos\05-Bootcamp__Pottencial\ExemplosFundamentos\obj\Debug\net6.0\ExemplosFundamentos.csproj.CoreCompileInputs.cache
+C:\Users\luanr\Desktop\Programação\04-Projetos\05-Bootcamp__Pottencial\ExemplosFundamentos\obj\Debug\net6.0\ExemplosFundamentos.dll
+C:\Users\luanr\Desktop\Programação\04-Projetos\05-Bootcamp__Pottencial\ExemplosFundamentos\obj\Debug\net6.0\refint\ExemplosFundamentos.dll
+C:\Users\luanr\Desktop\Programação\04-Projetos\05-Bootcamp__Pottencial\ExemplosFundamentos\obj\Debug\net6.0\ExemplosFundamentos.pdb
+C:\Users\luanr\Desktop\Programação\04-Projetos\05-Bootcamp__Pottencial\ExemplosFundamentos\obj\Debug\net6.0\ExemplosFundamentos.genruntimeconfig.cache
+C:\Users\luanr\Desktop\Programação\04-Projetos\05-Bootcamp__Pottencial\ExemplosFundamentos\obj\Debug\net6.0\ref\ExemplosFundamentos.dll

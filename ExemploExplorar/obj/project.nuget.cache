@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SHVZmYIBunPjKF5b2va0obepWwcnduM/9ty8Rhy1UVw7tOiDPm8Q+AwyTxkx4JMpJ8kPASb1lOyMpys+31P5Rw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\luanr\\Desktop\\Programação\\05-Bootcamp__Pottencial (fazendo)\\ExemploExplorar\\ExemploExplorar.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luanr\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

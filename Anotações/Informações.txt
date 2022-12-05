@@ -1,0 +1,286 @@
+INFORMAÇÕES SOBRE GIT E GITHUB
+ - Link para o site MarkDownGuide: www.markdonwguide.org/basic-syntax/
+
+============================================================================================
+                                INTRODUÇÃO AO .NET
+
+========================================================================================
+COMO COMENTAR TODO O BLOCO? 
+ - Segura o CTRL e aperta do :
+
+=======================================================================================
+COMO FAZER CASTING NO VISUAL CODE
+Observe o exemplo abaixo:
+
+int a = Convert.ToInt32("5");
+ou
+int a = int.Parse("5");
+
+Console.WriteLine(a);
+
+QUAL É A DIFERENÇA ENTRE CONVERT.TO E O PARSE?
+O Convert.To consegue fazer a conversão de números null e a aplicação não para.
+O Parse não consegue fazer a conversão de null e a aplicação para.
+
+===========================================================================================
+CONVERSÃO PARA STRING
+Após adicionar o dado, é só escrever .ToString() e o programa reconhece que é uma 
+conversão para string.
+
+EX: 
+int inteiro = 5;
+string a = inteiro.ToString();
+
+OBS: Quando for converter a string, NÃO utilizar o PARSE (pois não tem) e não usar
+o CONVERT é só adicionar o ToString();
+
+========================================================================================
+CASTING IMPLÍCITO
+Observe o exemplo
+
+int a = 5;
+double b = a;
+
+Console.WriteLine(b);
+
+O que vimos aqui em cima foi uma conversão implicita, porém o contrário não pode
+ocorrer, pois uma variável int não pode receber um double.
+
+===============================================================================================
+USANDO O TRYPARSE
+Observe o exemplo abaixo:
+
+string a = "5";
+int b = 0;
+
+int.TryParse(a, out b);
+
+O que aconteceu acima quando usamos o TryParse é que ele pegou a primeira variável A e 
+tentou converter. Após dar erro, imprimiu o valor da variável B.
+
+=========================================================================================
+OPERADOR CONDICIONAL
+Observe o exemplo abaixo:
+
+int quantidadeEmEstoque = 10;
+int quantidadeCompra = 4;
+bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra
+
+Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"Quantidade de compra: {quantidadeCompra}");
+Console.WriteLine($"É possível realizar a venda? {possivelVenda}");
+
+
+if (possivelVenda)
+{
+    Console.WriteLine("Venda realizada com sucesso.");
+}
+else
+{
+    Console.WriteLine("Desculpe. Não temos a quantidade desejada em estoque.");
+}
+
+===============================================================================================
+IF ANINHADO
+Observe o exemplo abaixo:
+
+int quantidadeEmEstoque = 10;
+int quantidadeCompra = 4;
+bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
+
+Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"Quantidade de compra: {quantidadeCompra}");
+Console.WriteLine($"É possível realizar a venda? {possivelVenda}");
+
+if (quantidadeCompra == 0)
+{
+    Console.WriteLine("Venda inválida");
+}
+else if (possivelVenda)
+{
+    Console.WriteLine("Venda realizada com sucesso.");
+}
+else
+{
+    Console.WriteLine("Desculpe. Não temos a quantidade desejada em estoque.");
+}
+
+=========================================================================================
+SWITCH CASE
+Observe o exemplo abaixo:
+
+Console.Write("Digite uma letra:");
+string letra = Console.ReadLine();
+
+switch (letra)
+{
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        Console.WriteLine("Vogal");
+        break;
+
+    default:
+        Console.WriteLine("Não é uma vogal");
+        break;
+}
+
+Em casos de muito ELSE IF, é sugerido usar o SWITCH.
+
+==============================================================================================
+INTRODUÇÃO OPERADORES LÓGICOS (OR)
+
+bool ehMaiorDeIdade = true;
+bool possuiAutorizacaoDoResponsave = false;
+
+if (ehMaiorDeIdade || possuiAutorizacaoDoResponsave)
+{
+    Console.WriteLine("Entrada liberada");
+}
+else
+{
+    Console.WriteLine("Entrada não liberada");
+}
+
+=============================================================================================
+INTRODUÇÃO OPERADORES LÓGICOS (AND)
+
+bool possuiPresencaMinima = true;
+double media = 7.0;
+
+if(possuiPresencaMinima && media >= 7 )
+{
+    Console.WriteLine("Aprovado!");
+}
+else
+{
+    Console.WriteLine("Reprovado!");
+}
+
+=============================================================================================
+INTRODUÇÃO OPERADORES LÓGICOS (NOT)
+
+bool choveu = false;
+bool estaTarde = false;
+
+if (!choveu && !estaTarde)
+{
+    Console.WriteLine("Vou pedalar");
+}
+else
+{
+    Console.WriteLine("Vou pedalar outro dia");
+}
+
+========================================================================================
+ESTRUTURA DE REPETIÇÃO
+
+Importante mencionar que e estrutura de repetição FOR e WHILE ocorre sempre que a condição for verdadeira.
+
+=============================================================================================================
+COMO INTERROMPER O FLUXO DE EXECUÇÃO?
+Observe o exemplo abaixo:
+
+int numero = 5;
+int contador = 0;
+
+while (contador <= 10)
+{
+    Console.WriteLine($"{numero} X {contador} = {numero * contador}");
+    contador++;
+
+    if(contador == 5)
+    {
+	break;
+    }	
+}
+
+Caso queira encerrar o fluxo, é necessário colocar um condição e, se ela for verdadeira, adiciona o BREAK.
+=====================================================================================================================
+ARRAY E LISTA
+
+É importante lembrar que no C# o índice de uma ARRAY inicia em 0.
+O ARRAY somente comporta um único tipo de variável: int / double / string / char / bool / etc
+
+O Array pode ser instanciado das seguintes formas:
+
+1. int[] array = new int[4]; --> a primeira forma dizendo qual é o tamanho do Array.
+2. int[] array = new int[] {42, 75, 74, 61}; --> a segunda forma é passando os valores sem dizer o tamanha do array.
+3. string[] nomes = {"Jan", "Fev"}; --> a terceira forma é em formato de string onde se passa o valor diretamente.
+
+Como eu seleciono o índice do ARRAY?
+
+1. int elemento = array[0]; --> Nesse primeiro caso foi criado uma variável que receberá as informações contidas no ARRAY.
+2. array[0] = 42; --> Nesse segundo caso o array na posição selecioanda está recebendo o valor 42. Caso já haja alguma 
+			informação nesse índice, o valor é modificado.
+
+=============================================================================================================================
+COMO AUMENTAR/REDIMENSIONAR O TAMANHO DO MEU ARRAY?
+Observe o exemplo abaixo:
+
+int[] arrayInteiros = new int[4];
+
+arrayInteiros[0] = 44;
+arrayInteiros[1] = 12;
+arrayInteiros[2] = 26;
+arrayInteiros[3] = 89;
+
+Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+
+console.writeLine("Percorrendo o Array com o FOR");
+for(int contador = 0; contador < arrayInteiros.Length; contador++)
+{
+    console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");  	
+}
+
+A classe ARRAY.RESIZE é usada para aumentar o tamanho do ARRAY quando o programa já está compilado e em tempo de execução.
+
+======================================================================================================================================
+COPIANDO UM ARRAY PARA O OUTRO
+Observe o exemplo abaixo:
+
+int[] arrayInteiros = new int[4];
+
+arrayInteiros[0] = 44;
+arrayInteiros[1] = 12;
+arrayInteiros[2] = 26;
+arrayInteiros[3] = 89;
+
+int[] arrayInteirosDobrado = new int[arrayInteiros * 2];
+Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+
+console.writeLine("Percorrendo o Array com o FOR");
+for(int contador = 0; contador < arrayInteiros.Length; contador++)
+{
+    console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");  	
+}
+
+Diferente do ARRAY.RESIZE, dessa vez foi feito uma cópia do primeiro array de forma dobrada.
+Para isso foi usado a classe ARRAY.COPY() passando como argumento o nome do array que será copiado, para onde será copiado 
+e quais elementos serão copiados.
+
+Em tese, o ARRAY.COPY faz quase a mesma coisa que o ARRAY.RESIZE. A única diferença é que no ARRAY.RESIZE todos os elementos 
+são copiados. E no ARRAY.COPY você seleciona os elementos do array que será copiado no novo array redimensionado.
+
+==============================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
