@@ -8,6 +8,11 @@ Qual é o comando que inicia uma WEB API no Visual Code:
 Qual é o comando que para compilar sem pausar
     dotnet watch run
 
+INSTALAÇÕES QUE PRECISAM SER REALIZADAS
+    dotnet add package Microsoft.EntityFrameworkCore.Design
+
+    dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
 
 */
 
